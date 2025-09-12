@@ -1,0 +1,5 @@
+Model,F1,Accuracy,Precision,Recall,Notebook
+TF_IDF + Logistic Regression,0.986,0.986,0.986,0.986,Fake_news_preprocessing_baseline_XGB.ipynb
+BOW + Logistic Regression,0.996,0.996,0.996,0.996,Fake_news_preprocessing_baseline_XGB.ipynb
+TF-IDF + SVD + XGBoost,0.983,0.983,0.983,0.983,Fake_news_preprocessing_baseline_XGB.ipynb
+Bert,0.999,0.999,0.999,0.999,Fake_news_BERT.ipynb

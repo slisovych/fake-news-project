@@ -1,0 +1,66 @@
+# === OS artifacts ===
+.DS_Store
+Thumbs.db
+
+# === Python / packaging ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+.python-version
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# === Editors / IDEs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Logs / cache ===
+*.log
+*.tmp
+*.temp
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# === Project data ===
+# Ignore everything in /data except the raw input CSV we want tracked
+data/**
+!data/fake_news_full_data.csv
+
+# === Results / outputs ===
+# Track results by default (recommended). If you later decide to ignore heavy artifacts,
+# uncomment the lines below and allowlist specific files.
+# results/**
+# !results/*.csv
+# !results/*.png
+# !results/*.html
+# !results/*.pdf
+
+# === Local ad-hoc uploads (next to notebooks) ===
+*.local.csv
+local/**
+uploads/**
+
+# === Models (no artifacts in repo per README) ===
+models/**
+
+# === Data sets =====
+data/
